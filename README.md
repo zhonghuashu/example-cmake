@@ -2,7 +2,7 @@ example-cmake
 =================================
 # Introduction
 Example cmake code downloaded from [CMake tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html).
-- 
+
 
 # Build
 - Build and run
