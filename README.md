@@ -1,10 +1,7 @@
 example-cmake
 =================================
-# Introduction
+# cmake-tutorial
 Example cmake code downloaded from [CMake tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html).
-
-
-# Build
 - Build and run
 ```shell
 cd ~/github/example-conan/cmake-tutorial
@@ -36,3 +33,6 @@ cmake --build .
 
 cpack --config ../Step12/MultiCPackConfig.cmake
 ```
+# cmake-hello
+CMake quick start project from [VS Code](https://code.visualstudio.com/docs/cpp/cmake-quickstart).
+
