@@ -1,5 +1,5 @@
 add_library(MathFunctions MathFunctions.cxx)
-
+include(MakeTable.cmake)
 # should we use our own math functions
 option(USE_MYMATH "Use tutorial provided math implementation" ON)
 if (USE_MYMATH)
@@ -8,6 +8,11 @@ if (USE_MYMATH)
   # library that just does sqrt
   add_library(SqrtLibrary STATIC
               mysqrt.cxx
+              ${CMAKE_CURRENT_BINARY_DIR}/Table.h
+              )
+
+  target_include_directories(SqrtLibrary PRIVATE
+              ${CMAKE_CURRENT_BINARY_DIR}
               )
 
   # link SqrtLibrary to tutorial_compiler_flags

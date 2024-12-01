@@ -3,7 +3,7 @@
 #include <cmath>
 
 #ifdef USE_MYMATH
-#  include "mysqrt.h"
+#include "mysqrt.h"
 #endif
 
 namespace mathfunctions {
